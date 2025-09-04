@@ -1,0 +1,165 @@
+body {
+    background-color:floralwhite;
+    margin: 50px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar navbar"
+    "image_1 image_1 image_1"
+    "image_2  image_3 image_4 "
+    "text1 text2 text3"
+    "text4 text5 text6"
+    "footer footer footer";
+}
+
+
+
+.navbar {
+    grid-area: navbar;
+    text-align: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a {
+    text-align: right;
+    color:black ;
+}
+
+.Logo {
+    position: absolute;
+    height: auto;
+    left: 5px;
+    width: 80px;
+    padding:0px
+
+}
+
+.image_1 {
+    grid-area: image_1;
+    text-align: center;
+    margin: 30px;
+}
+
+.image_2 {
+    grid-area: image_2;
+    margin: 30px;
+}
+
+.image_3 {
+    grid-area: image_3;
+    margin: 30px;
+}
+
+.image_4 {
+    grid-area: image_4;
+    margin: 30px;
+}
+
+.text1 {
+    grid-area: text1;
+    font-size: 40px;
+    margin: 30px;
+    text-align: left;
+    border-style: solid;
+    padding: 20px;
+    
+
+    
+}
+
+.text2 {
+    grid-area: text2;
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;
+    border-style: solid;
+    padding: 20px;
+
+
+}
+
+.text3 {
+    grid-area: text3;
+    font-size: 40px;
+    margin: 30px;
+    text-align: right;
+    border-style: solid;
+    padding: 40px;
+}
+
+.text4 {
+    grid-area: text4;
+    font-size: 40px;
+    margin: 30px;
+    text-align: left;
+    border-style: solid;
+    padding: 20px;
+    
+}
+
+.text5 {
+    grid-area: text5;
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;
+    border-style: solid;
+    padding: 20px;
+}
+
+.text6 {
+    grid-area: text6;
+    font-size: 40px;
+    font-family: Arial Nova Condensed;
+    margin: 30px;
+    text-align: right;
+    border-style: solid;
+    padding: 40px;
+
+}
+
+
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    grid-area: footer;
+    color: black;
+    font-family: Arial Nova Condensed;
+    font-size: larger;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
